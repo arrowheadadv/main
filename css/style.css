@@ -103,6 +103,9 @@ html, body {
 header.mobile {
 	display: none;
 }
+aside.mobile {
+	display: none;
+}
 
 /* ==========================================================================
    Header
@@ -193,6 +196,10 @@ header.desktop nav.main ul li a {
 	text-transform: uppercase;
 	font-weight: 600;
 	text-decoration: none;
+	-webkit-transition:color 0.2s ease-in;  
+    -moz-transition:color 0.2s ease-in;  
+    -o-transition:color 0.2s ease-in;  
+    transition:color 0.2s ease-in;
 }
 header.desktop nav.main ul li a:hover {
 	color: #d33427;
@@ -446,6 +453,73 @@ header.desktop nav.main ul li a span {
 }
 
 
+/* 
+   Internal Pages
+   ========================================================================== */
+.internal {
+	padding: 35px 0;
+}
+.internal aside.desktop {
+	width: 19%;
+	padding: 0 2%;
+}
+.internal aside.desktop h2 {
+	font-size: 32px;
+	color: #4a4a4a;
+	font-weight: 300;
+	margin-bottom: 15px;
+}
+.internal aside.desktop ul li {
+	font-size: 15px; 
+	font-family: Arial, Helvetica, sans-serif;
+	color: #a9a9a9;
+	padding: 10px 0;
+	border-bottom: 1px dotted #a9a9a9;
+}
+.internal aside.desktop ul li a {
+	color: #a9a9a9;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	-webkit-transition:color 0.2s ease-in;  
+    -moz-transition:color 0.2s ease-in;  
+    -o-transition:color 0.2s ease-in;  
+    transition:color 0.2s ease-in;
+}
+.internal aside.desktop ul li a:hover {
+	color: #d33427;
+}
+.internal .container {
+	width: 81%;
+}
+.internal .container h1 {
+	font-size: 36px;
+	color: #4a4a4a;
+	margin-bottom: 12px;
+	font-weight: 600;
+}
+.internal .container h2 {
+	font-size: 36px;
+	margin: 16px 0;
+	color: #636363;
+	font-weight: 300;
+}
+.internal .container p {
+	margin: 16px 0;
+	font-size: 15px;
+	color: #636363;
+}
+.internal .container ul.events li {
+	float: left;
+	width: 34.25%;
+}
+.internal .container ul.events li:first-child {
+	width: 65.3%;
+}
+.internal .container ul.events li img {
+	float: left;
+}
+
 /* ==========================================================================
    Footer
    ========================================================================== */
@@ -652,6 +726,12 @@ footer p.copyright {
 	.clients ul li img {
 		width: 70%;
 	}
+	.internal aside.desktop h2 {
+		font-size: 18px;
+	}
+	.internal aside.desktop ul li {
+		font-size: 14px;
+	}
 }
 
 @media only screen and (max-width:800px) {
@@ -761,9 +841,37 @@ footer p.copyright {
 		width: 100%;
 		float: none;
 	}
+	.internal aside.desktop h2 {
+		font-size: 17px;
+	}
+	.internal aside.desktop ul li {
+		font-size: 12px;
+	}
+	.internal aside.desktop {
+		width: 22%;
+	}
+	.internal .container {
+		width: 78%;
+	}
+	.internal .container h1 {
+		font-size: 30px;
+	}
+	.internal .container h2 {
+		font-size: 22px;
+	}
+	.internal .container p {
+		font-size: 14px;
+	}
 }
 
-@media only screen and (max-width:768px) {}
+@media only screen and (max-width:768px) {
+	.internal .container h1 {
+		font-size: 28px;
+	}
+	.internal .container h2 {
+		font-size: 20px;
+	}
+}
 
 @media only screen and (max-width:640px) {
 	header.desktop nav.main ul li {
@@ -862,6 +970,34 @@ footer p.copyright {
 	.splash {
 		margin-top: 72px;
 	}
+	.internal .container ul.events li:first-child,
+	.internal .container ul.events li {
+		width: 100%;
+		float: none;
+	}
+	.internal .container ul.events li img {
+		width: 100%;
+	}
+	aside.desktop {
+		display: none;
+	}
+	.internal aside.mobile {
+		display: block;
+		position: fixed;
+		height: 100%;
+		width: 5%;
+		background-color: #565656;
+	}
+	.internal .container {
+		width: 95%;
+		padding-left: 2%;
+	}
+	footer .wrap {
+		padding-left: 7%;
+	}
+	section.internal {
+		padding-top: 72px;
+	}
 }
 
 @media only screen and (max-width:480px) {
@@ -950,6 +1086,15 @@ footer p.copyright {
 	}
 	nav.mobile {
 		width: 60%;
+	}
+	.internal aside.mobile {
+		width: 7%;
+	}
+	.internal .container {
+		width: 93%;
+	}
+	footer .wrap {
+		padding-left: 9%;
 	}
 }
 
