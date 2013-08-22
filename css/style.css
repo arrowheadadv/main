@@ -62,6 +62,9 @@ html, body {
 .red {
 	color: #ed1c24;
 }
+.blue {
+	color: #33b0df;
+}
 .bold {
 	font-weight:700;
 }
@@ -97,6 +100,9 @@ html, body {
 .btn-orange {
 	background-color: #d23426;
 }
+.btn-red {
+	background-color: #c92f2f;
+}
 .mobile-services {
 	display: none;
 }
@@ -105,6 +111,15 @@ header.mobile {
 }
 aside.mobile {
 	display: none;
+}
+.twenty5 {
+	width: 25%;
+}
+.sixty5 {
+	width: 65%;
+}
+.seventy5 {
+	width: 75%;
 }
 
 /* ==========================================================================
@@ -521,6 +536,105 @@ header.desktop nav.main ul li a span {
 }
 
 /* ==========================================================================
+   Careers Page
+   ========================================================================*/
+.career-splash {
+	position: relative;
+	background: url("../img/career-splash.jpg") no-repeat center top;
+	width: 100%;
+	height: 583px;
+}
+.career-text {
+    background-color: #dc5d52;
+    height: 100%;
+    left: 0;
+    opacity: 0.80;
+    padding: 150px 2.5% 40px;
+    position: absolute;
+    top: 0;
+    width: 21%;
+}
+.career-text p {
+	font-weight: 200;
+	color:#fff;
+	font-size: 41px;
+}
+.careers p span {
+	font-family: 'Arial', sans-serif;
+}
+aside.careers {
+	width: 21%;
+	height: 100%;
+	padding: 30px;
+}
+aside.careers ul {
+	padding-top: 20px;
+}
+aside.careers ul li {
+	padding-bottom: 15px;
+}
+.careers span {
+	font-size: 16px;
+	color: #2f2f2f;
+	padding: 5px 0 0 0;
+	font-weight: bold;
+}
+aside.careers p {
+	font-size: 13px;
+	color: #b6b6b6;
+	padding: 0 0 5px 0;
+}
+aside a {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 3px;
+	color: white;
+	font-weight: 600;
+	font-size: 12px;
+	padding: 5px 7px;
+}
+div.careers {
+	margin-top: 40px;
+}
+.careers h1 {
+	font-weight: 300;
+	color: #4a4a4a;
+	border-bottom: 1px dotted #4a4a4a;
+	font-size: 32px;
+	padding-bottom: 15px;
+}
+.careers h2 {
+	font-weight: 300;
+	color: #818181;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	padding: 15px 0;
+}
+.position {
+	padding: 30px 0;
+}
+.position p {
+	font-size: 15px;
+	color: #818181;
+	padding: 5px 0;
+}
+.position ul {
+	margin-left: 15px;
+	padding: 10px 0;
+}
+.position ul li {
+	list-style: disc;
+	font-size: 15px;
+	color: #818181;
+}
+.position a {
+	margin-top: 20px;
+	text-decoration: none;
+
+}
+
+/* ==========================================================================
    Footer
    ========================================================================== */
 /**
@@ -862,6 +976,22 @@ footer p.copyright {
 	.internal .container p {
 		font-size: 14px;
 	}
+	aside.careers {
+		display: none;
+	}
+	.career-splash {
+		height: 260px;
+	}
+	.career-text {
+		width: 30%;
+	}
+	.career-text p {
+		font-size: 22px;
+	}
+	div.careers {
+		width: 100%;
+		padding-left: 10px;
+	}
 }
 
 @media only screen and (max-width:768px) {
@@ -998,6 +1128,22 @@ footer p.copyright {
 	section.internal {
 		padding-top: 72px;
 	}
+	aside.careers {
+		display: none;
+	}
+	.career-splash {
+		height: 260px;
+	}
+	.career-text {
+		width: 30%;
+	}
+	.career-text p {
+		font-size: 22px;
+	}
+	div.careers {
+		width: 100%;
+		padding-left: 10px;
+	}
 }
 
 @media only screen and (max-width:480px) {
@@ -1062,6 +1208,22 @@ footer p.copyright {
 		height: auto;
 		margin: 0;
 	}
+	aside.careers {
+		display: none;
+	}
+	.career-splash {
+		height: 260px;
+	}
+	.career-text {
+		width: 30%;
+	}
+	.career-text p {
+		font-size: 22px;
+	}
+	div.careers {
+		width: 100%;
+		padding-left: 10px;
+	}
 }
 
 @media only screen and (max-width:360px) {
@@ -1095,6 +1257,22 @@ footer p.copyright {
 	}
 	footer .wrap {
 		padding-left: 9%;
+	}
+	aside.careers {
+		display: none;
+	}
+	.career-splash {
+		height: 260px;
+	}
+	.career-text {
+		width: 47%;
+	}
+	.career-text p {
+		font-size: 24px;
+	}
+	div.careers {
+		width: 100%;
+		padding-left: 10px;
 	}
 }
 
