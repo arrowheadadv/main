@@ -1001,6 +1001,14 @@ footer p.copyright {
 	.internal .container h2 {
 		font-size: 20px;
 	}
+	div.careers {
+		width: 100%;
+		padding: 0px 10px;
+		text-align: justify;
+	}
+	.careers h2 {
+	font-size: 20px;
+}
 }
 
 @media only screen and (max-width:640px) {
@@ -1142,8 +1150,12 @@ footer p.copyright {
 	}
 	div.careers {
 		width: 100%;
-		padding-left: 10px;
+		padding: 0px 10px;
+		text-align: justify;
 	}
+	.careers h2 {
+	font-size: 20px;
+}
 }
 
 @media only screen and (max-width:480px) {
@@ -1222,8 +1234,12 @@ footer p.copyright {
 	}
 	div.careers {
 		width: 100%;
-		padding-left: 10px;
+		padding: 0px 10px;
+		text-align: justify;
 	}
+	.careers h2 {
+	font-size: 20px;
+}
 }
 
 @media only screen and (max-width:360px) {
@@ -1272,8 +1288,12 @@ footer p.copyright {
 	}
 	div.careers {
 		width: 100%;
-		padding-left: 10px;
+		padding: 0px 10px;
+		text-align: justify;
 	}
+	.careers h2 {
+	font-size: 20px;
+}
 }
 
 @media only screen and (max-width:320px) {
