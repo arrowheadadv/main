@@ -68,6 +68,9 @@ html, body {
 .bold {
 	font-weight:700;
 }
+.light {
+	font-weight: 200;
+}
 .italic {
 	font-style:italic;
 }
@@ -632,6 +635,48 @@ div.careers {
 	margin-top: 20px;
 	text-decoration: none;
 
+}
+/* ==========================================================================
+	Contact Page
+	=========================================================================*/
+.contact-splash {
+	background: url("../img/contact-map.jpg") no-repeat center top;
+	width: 80%;
+	height: 578px;
+}
+aside.contact-info {
+	width: 20%;
+	min-height: 2038px;
+	height: 100%;
+	padding: 30px;
+	background-color: #d33427;
+}
+aside.contact-info span {
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	color: #1a1a1a;
+	font-weight: 200;
+}
+aside.contact-info p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	color: #ffffff;
+}
+aside.contact-info a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	color: #ffffff;
+}
+.contact {
+	padding: 40px;
+}
+.contact h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+}
+.contact p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
 }
 
 /* ==========================================================================
