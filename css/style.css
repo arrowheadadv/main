@@ -106,6 +106,9 @@ html, body {
 .btn-red {
 	background-color: #c92f2f;
 }
+.btn-gray {
+	background-color: #3f3f3f;
+}
 .mobile-services {
 	display: none;
 }
@@ -673,10 +676,34 @@ aside.contact-info a {
 .contact h1 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 60px;
+	margin-bottom: 30px;
 }
 .contact p {
 	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
+	font-weight: 300;
+}
+.contact form {
+	padding: 50px 0;
+}
+.contact label {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #909090;
+}
+.contact form input {
+	width: 50%;
+	height: 62px;
+	margin: 15px 0;
+}
+.contact form textarea {
+	width: 50%;
+	margin: 15px 0;
+}
+.contact form select {
+	width: 50%;
+	margin: 15px 0;
+	height: 62px;
 }
 
 /* ==========================================================================
