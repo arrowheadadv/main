@@ -1,5 +1,6 @@
 @import url('resets.css');
 @import url(http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 
 /* ==========================================================================
    Globals
@@ -112,14 +113,26 @@ header.mobile {
 aside.mobile {
 	display: none;
 }
+.twenty {
+	width: 20%;
+}
 .twenty5 {
 	width: 25%;
+}
+.forty {
+	width: 40%;
+}
+.sixty {
+	width: 60%;
 }
 .sixty5 {
 	width: 65%;
 }
 .seventy5 {
 	width: 75%;
+}
+.eighty {
+	width: 80%;
 }
 
 /* ==========================================================================
@@ -635,6 +648,78 @@ div.careers {
 }
 
 /* ==========================================================================
+   Portfolio
+   ========================================================================== */
+/**
+ * This will house all of the styles for the Portfolio
+ *
+ * Includes the Web, Video, and Print
+ */
+
+.portfolio-nav{
+	width: 65px;
+	background-color: #212121;
+	position: fixed;
+	height: 100%;
+	z-index: 500;
+}
+.portfolio-nav ul li{
+	padding: 10px 12px;
+}
+.portfolio-nav ul li:hover{
+	background-color: #484848;
+}
+.portfolio-nav ul li.active{
+	background-color: #484848;
+}
+.portfolio-section{
+	width: 100%;
+	padding-left: 65px;
+}
+.portfolio-section ul li.port-featured{
+	width: 82.64%;
+	float: left;
+}
+.portfolio-section ul li{
+	height: 100%;
+	width: 17.36%;
+	float: right;
+}
+.portfolio-section ul li img{
+	float: left;
+}
+.pad-4{
+	padding-top: 4%;
+}
+.portfolio-section h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 68px;
+}
+.portfolio-section h2{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 23px;
+}
+.portfolio-section p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #5b5b5b;
+	margin:16px 0;
+	line-height: 18px;
+}
+.btm_text{
+	padding:4% 0 0 4%;
+}
+body.portfolio footer{
+	padding-left: 65px;
+}
+/* ==========================================================================
+   End Portfolio
+   ========================================================================== */
+
+
+/* ==========================================================================
    Footer
    ========================================================================== */
 /**
@@ -769,7 +854,15 @@ footer p.copyright {
 	.testimonials .quote {
 		min-height: 662px;
 	}
+/* PORTFOLIO */
+.portfolio-section h1{
+	font-size:47px ;
+}
+.pad-40 {
+    padding-top: 4%;
+}
 
+/* END PORTFOLIO */
 }
 
 @media only screen and (max-width:980px) {
