@@ -69,6 +69,9 @@ html, body {
 .bold {
 	font-weight:700;
 }
+.light {
+	font-weight: 200;
+}
 .italic {
 	font-style:italic;
 }
@@ -103,6 +106,9 @@ html, body {
 }
 .btn-red {
 	background-color: #c92f2f;
+}
+.btn-gray {
+	background-color: #3f3f3f;
 }
 .mobile-services {
 	display: none;
@@ -652,6 +658,72 @@ div.careers {
 	text-decoration: none;
 
 }
+/* ==========================================================================
+	Contact Page
+	=========================================================================*/
+.contact-splash {
+	background: url("../img/contact-map.jpg") no-repeat center top;
+	width: 80%;
+	height: 578px;
+}
+aside.contact-info {
+	width: 20%;
+	min-height: 2038px;
+	height: 100%;
+	padding: 30px;
+	background-color: #d33427;
+}
+aside.contact-info span {
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	color: #1a1a1a;
+	font-weight: 200;
+}
+aside.contact-info p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	color: #ffffff;
+}
+aside.contact-info a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	color: #ffffff;
+}
+.contact {
+	padding: 40px;
+}
+.contact h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+.contact p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+}
+.contact form {
+	padding: 50px 0;
+}
+.contact label {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #909090;
+}
+.contact form input {
+	width: 50%;
+	height: 62px;
+	margin: 15px 0;
+}
+.contact form textarea {
+	width: 50%;
+	margin: 15px 0;
+}
+.contact form select {
+	width: 50%;
+	margin: 15px 0;
+	height: 62px;
+}
 
 /* ==========================================================================
    Portfolio
@@ -1149,12 +1221,50 @@ ul.desktop-port li.slider-li {
 	}
 	.careers h2 {
 	font-size: 20px;
+<<<<<<< HEAD
 }
 	/* PORTFOLIO */
 	ul.desktop-port li.slider-li {
     height: 366px;
 	}
 	/* END PORTFOLIO */
+=======
+	}
+	.contact-splash {
+		float: none;
+		width: 100%;
+		height: 460px;
+	}
+	aside.contact-info {
+		width: 100%;
+		min-height: 0;
+		float: none;
+	}
+	.contact {
+		width: 100%;
+		padding: 10px;
+	}
+	.contact h1 {
+		font-size: 30px;
+	}
+	.contact p {
+		font-size: 18px;
+	}
+	.contact form input {
+	width: 100%;
+	height: 50px;
+	margin: 15px 0;
+	}
+	.contact form textarea {
+	width: 100%;
+	margin: 15px 0;
+	}
+	.contact form select {
+	width: 100%;
+	margin: 15px 0;
+	height
+	}
+>>>>>>> master
 }
 
 @media only screen and (max-width:640px) {
@@ -1302,6 +1412,7 @@ ul.desktop-port li.slider-li {
 	.careers h2 {
 	font-size: 20px;
 	}
+<<<<<<< HEAD
 
 	.portfolio-section h1 {
 	    font-size: 36px;
@@ -1315,6 +1426,40 @@ ul.desktop-port li.slider-li {
     height: 299px;
 	}
 	/* END PORTFOLIO */
+=======
+	.contact-splash {
+		display: none;
+	}
+	aside.contact-info {
+		width: 100%;
+		margin-top: 65px;
+		min-height: 0;
+	}
+	.contact {
+		width: 100%;
+		padding: 10px;
+	}
+	.contact h1 {
+		font-size: 30px;
+	}
+	.contact p {
+		font-size: 18px;
+	}
+	.contact form input {
+	width: 100%;
+	height: 50px;
+	margin: 15px 0;
+	}
+	.contact form textarea {
+	width: 100%;
+	margin: 15px 0;
+	}
+	.contact form select {
+	width: 100%;
+	margin: 15px 0;
+	height
+	}
+>>>>>>> master
 }
 
 @media only screen and (max-width:480px) {
@@ -1398,6 +1543,7 @@ ul.desktop-port li.slider-li {
 	}
 	.careers h2 {
 	font-size: 20px;
+<<<<<<< HEAD
 }
 .desktop-port{
 	display: none;
@@ -1411,6 +1557,41 @@ ul.desktop-port li.slider-li {
 .portfolio-section{
 	text-align: center;
 }
+=======
+	}
+	.contact-splash {
+		display: none;
+	}
+	aside.contact-info {
+		width: 100%;
+		margin-top: 65px;
+		min-height: 0;
+	}
+	.contact {
+		width: 100%;
+		padding: 10px;
+	}
+	.contact h1 {
+		font-size: 30px;
+	}
+	.contact p {
+		font-size: 18px;
+	}
+	.contact form input {
+	width: 100%;
+	height: 50px;
+	margin: 15px 0;
+	}
+	.contact form textarea {
+	width: 100%;
+	margin: 15px 0;
+	}
+	.contact form select {
+	width: 100%;
+	margin: 15px 0;
+	height: 50px;
+	}
+>>>>>>> master
 }
 
 @media only screen and (max-width:360px) {
@@ -1464,6 +1645,38 @@ ul.desktop-port li.slider-li {
 	}
 	.careers h2 {
 	font-size: 20px;
+	}
+	.contact-splash {
+		display: none;
+	}
+	aside.contact-info {
+		width: 100%;
+		margin-top: 65px;
+		min-height: 0;
+	}
+	.contact {
+		width: 100%;
+		padding: 10px;
+	}
+	.contact h1 {
+		font-size: 30px;
+	}
+	.contact p {
+		font-size: 18px;
+	}
+	.contact form input {
+	width: 100%;
+	height: 50px;
+	margin: 15px 0;
+}
+.contact form textarea {
+	width: 100%;
+	margin: 15px 0;
+}
+.contact form select {
+	width: 100%;
+	margin: 15px 0;
+	height: 50px;
 }
 }
 
