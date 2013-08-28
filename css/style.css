@@ -1,5 +1,6 @@
 @import url('resets.css');
 @import url(http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 
 /* ==========================================================================
    Globals
@@ -68,6 +69,9 @@ html, body {
 .bold {
 	font-weight:700;
 }
+.light {
+	font-weight: 200;
+}
 .italic {
 	font-style:italic;
 }
@@ -103,6 +107,9 @@ html, body {
 .btn-red {
 	background-color: #c92f2f;
 }
+.btn-gray {
+	background-color: #3f3f3f;
+}
 .mobile-services {
 	display: none;
 }
@@ -112,14 +119,32 @@ header.mobile {
 aside.mobile {
 	display: none;
 }
+.twenty {
+	width: 20%;
+}
 .twenty5 {
 	width: 25%;
+}
+.thirty {
+	width: 30%;
+}
+.forty {
+	width: 40%;
+}
+.sixty {
+	width: 60%;
 }
 .sixty5 {
 	width: 65%;
 }
+.seventy {
+	width: 70%;
+}
 .seventy5 {
 	width: 75%;
+}
+.eighty {
+	width: 80%;
 }
 
 /* ==========================================================================
@@ -633,6 +658,169 @@ div.careers {
 	text-decoration: none;
 
 }
+/* ==========================================================================
+	Contact Page
+	=========================================================================*/
+.contact-splash {
+	background: url("../img/contact-map.jpg") no-repeat center top;
+	width: 80%;
+	height: 578px;
+}
+aside.contact-info {
+	width: 20%;
+	min-height: 2038px;
+	height: 100%;
+	padding: 30px;
+	background-color: #d33427;
+}
+aside.contact-info span {
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	color: #1a1a1a;
+	font-weight: 200;
+}
+aside.contact-info p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	color: #ffffff;
+}
+aside.contact-info a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	color: #ffffff;
+}
+.contact {
+	padding: 40px;
+}
+.contact h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+.contact p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+}
+.contact form {
+	padding: 50px 0;
+}
+.contact label {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #909090;
+}
+.contact form input {
+	width: 50%;
+	height: 62px;
+	margin: 15px 0;
+}
+.contact form textarea {
+	width: 50%;
+	margin: 15px 0;
+}
+.contact form select {
+	width: 50%;
+	margin: 15px 0;
+	height: 62px;
+}
+
+/* ==========================================================================
+   Portfolio
+   ========================================================================== */
+/**
+ * This will house all of the styles for the Portfolio
+ *
+ * Includes the Web, Video, and Print
+ */
+.mobile-port{
+	display: none;
+}
+.portfolio-nav{
+	width: 65px;
+	background-color: #212121;
+	position: fixed;
+	height: 100%;
+	z-index: 500;
+}
+.portfolio-nav ul li{
+	padding: 10px 12px;
+}
+.portfolio-nav ul li:hover{
+	background-color: #484848;
+}
+.portfolio-nav ul li.active{
+	background-color: #484848;
+}
+.portfolio-section{
+	width: 100%;
+	padding-left: 65px;
+}
+ul.desktop-port li.port-featured{
+	width: 82.64%;
+	float: left;
+}
+ul.desktop-port li{
+	height: 100%;
+	float: right;
+}
+ul.desktop-port li img{
+	float: left;
+}
+.pad-4{
+	padding-top: 4%;
+}
+.portfolio-section h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 68px;
+}
+.portfolio-section h2{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 23px;
+}
+.portfolio-section p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #5b5b5b;
+	margin:16px 0;
+	line-height: 18px;
+}
+.btm_text{
+	padding:4% 0 0 4%;
+}
+body.portfolio footer{
+	padding-left: 65px;
+}
+ul.desktop-port li.slider-li{
+	width: 17.36%;
+	float:none;
+	height: 957px;
+	overflow: scroll;
+}
+ul.desktop-port li.slider-li ul li{
+	width: 100%;
+}
+ul.desktop-port li.slider-li{
+	height: 957px;
+}
+.justify{
+	text-align: justify;
+}
+.btm_img{
+	padding:4% 4% 0 0;
+}
+.colors-text{
+	padding:2%;
+}
+.colors-bg{
+	background-color:#EBEBEB;
+}
+/* ==========================================================================
+   End Portfolio
+   ========================================================================== */
+
 
 /* ==========================================================================
    Footer
@@ -769,7 +957,19 @@ footer p.copyright {
 	.testimonials .quote {
 		min-height: 662px;
 	}
+/* PORTFOLIO */
+.portfolio-section h1{
+	font-size:47px ;
+}
+.pad-40 {
+    padding-top: 4%;
+}
 
+ul.desktop-port li.slider-li {
+    height: 633px;
+}
+
+/* END PORTFOLIO */
 }
 
 @media only screen and (max-width:980px) {
@@ -846,6 +1046,12 @@ footer p.copyright {
 	.internal aside.desktop ul li {
 		font-size: 14px;
 	}
+
+	/* PORTFOLIO */
+	ul.desktop-port li.slider-li {
+    height: 476px;
+	}
+	/* END PORTFOLIO */
 }
 
 @media only screen and (max-width:800px) {
@@ -992,6 +1198,13 @@ footer p.copyright {
 		width: 100%;
 		padding-left: 10px;
 	}
+
+	/* PORTFOLIO */
+	ul.desktop-port li.slider-li {
+    height: 383px;
+	}
+	/* END PORTFOLIO */
+
 }
 
 @media only screen and (max-width:768px) {
@@ -1008,7 +1221,50 @@ footer p.copyright {
 	}
 	.careers h2 {
 	font-size: 20px;
+<<<<<<< HEAD
 }
+	/* PORTFOLIO */
+	ul.desktop-port li.slider-li {
+    height: 366px;
+	}
+	/* END PORTFOLIO */
+=======
+	}
+	.contact-splash {
+		float: none;
+		width: 100%;
+		height: 460px;
+	}
+	aside.contact-info {
+		width: 100%;
+		min-height: 0;
+		float: none;
+	}
+	.contact {
+		width: 100%;
+		padding: 10px;
+	}
+	.contact h1 {
+		font-size: 30px;
+	}
+	.contact p {
+		font-size: 18px;
+	}
+	.contact form input {
+	width: 100%;
+	height: 50px;
+	margin: 15px 0;
+	}
+	.contact form textarea {
+	width: 100%;
+	margin: 15px 0;
+	}
+	.contact form select {
+	width: 100%;
+	margin: 15px 0;
+	height
+	}
+>>>>>>> master
 }
 
 @media only screen and (max-width:640px) {
@@ -1155,7 +1411,55 @@ footer p.copyright {
 	}
 	.careers h2 {
 	font-size: 20px;
-}
+	}
+<<<<<<< HEAD
+
+	.portfolio-section h1 {
+	    font-size: 36px;
+	}
+	.cancel-float{
+		float: none;
+		width: 100%;
+	}
+	/* PORTFOLIO */
+	ul.desktop-port li.slider-li {
+    height: 299px;
+	}
+	/* END PORTFOLIO */
+=======
+	.contact-splash {
+		display: none;
+	}
+	aside.contact-info {
+		width: 100%;
+		margin-top: 65px;
+		min-height: 0;
+	}
+	.contact {
+		width: 100%;
+		padding: 10px;
+	}
+	.contact h1 {
+		font-size: 30px;
+	}
+	.contact p {
+		font-size: 18px;
+	}
+	.contact form input {
+	width: 100%;
+	height: 50px;
+	margin: 15px 0;
+	}
+	.contact form textarea {
+	width: 100%;
+	margin: 15px 0;
+	}
+	.contact form select {
+	width: 100%;
+	margin: 15px 0;
+	height
+	}
+>>>>>>> master
 }
 
 @media only screen and (max-width:480px) {
@@ -1239,7 +1543,55 @@ footer p.copyright {
 	}
 	.careers h2 {
 	font-size: 20px;
+<<<<<<< HEAD
 }
+.desktop-port{
+	display: none;
+}
+.mobile-port{
+	display: block;
+}
+.mobile-port li{
+	display: block;
+}
+.portfolio-section{
+	text-align: center;
+}
+=======
+	}
+	.contact-splash {
+		display: none;
+	}
+	aside.contact-info {
+		width: 100%;
+		margin-top: 65px;
+		min-height: 0;
+	}
+	.contact {
+		width: 100%;
+		padding: 10px;
+	}
+	.contact h1 {
+		font-size: 30px;
+	}
+	.contact p {
+		font-size: 18px;
+	}
+	.contact form input {
+	width: 100%;
+	height: 50px;
+	margin: 15px 0;
+	}
+	.contact form textarea {
+	width: 100%;
+	margin: 15px 0;
+	}
+	.contact form select {
+	width: 100%;
+	margin: 15px 0;
+	height: 50px;
+	}
+>>>>>>> master
 }
 
 @media only screen and (max-width:360px) {
@@ -1293,6 +1645,38 @@ footer p.copyright {
 	}
 	.careers h2 {
 	font-size: 20px;
+	}
+	.contact-splash {
+		display: none;
+	}
+	aside.contact-info {
+		width: 100%;
+		margin-top: 65px;
+		min-height: 0;
+	}
+	.contact {
+		width: 100%;
+		padding: 10px;
+	}
+	.contact h1 {
+		font-size: 30px;
+	}
+	.contact p {
+		font-size: 18px;
+	}
+	.contact form input {
+	width: 100%;
+	height: 50px;
+	margin: 15px 0;
+}
+.contact form textarea {
+	width: 100%;
+	margin: 15px 0;
+}
+.contact form select {
+	width: 100%;
+	margin: 15px 0;
+	height: 50px;
 }
 }
 
