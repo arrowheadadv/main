@@ -341,7 +341,11 @@ header.desktop nav.main ul li a span {
 }
 .services .service-text h1 {
 	font-weight: 300;
+<<<<<<< HEAD
 	font-size: 33px;
+=======
+	font-size: 40px;
+>>>>>>> f18704e44440bb892f76da4d620a3c2f6db659bc
 	padding: 40px 40px 20px 40px;
 	color: white;
 }
@@ -1049,6 +1053,7 @@ footer p.copyright {
 	.testimonials .quote {
 		min-height: 662px;
 	}
+<<<<<<< HEAD
 	footer .widget {
 	float: right;
 	width: 42%;
@@ -1058,6 +1063,8 @@ footer p.copyright {
 	float: left;
 	margin-right: 2%;
 }
+=======
+>>>>>>> f18704e44440bb892f76da4d620a3c2f6db659bc
 /* PORTFOLIO */
 .portfolio-section h1{
 	font-size:47px ;
